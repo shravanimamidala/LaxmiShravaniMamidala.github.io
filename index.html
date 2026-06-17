@@ -3,242 +3,581 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AI/ML portfolio featuring medical AI, agentic AI, reinforcement learning, and fake review detection projects." />
-  <title>Laxmi Shravani Mamidala | AI Portfolio</title>
+  <title>Laxmi Shravani Mamidala | AI & Data Science Portfolio</title>
+  <meta name="description" content="AI/ML portfolio of Laxmi Shravani Mamidala: 5+ years experience, Infosys, INSOFE, MS AI, projects in GenAI, Computer Vision, RL, and NLP." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#home">LSM<span>.</span></a>
-    <nav class="nav" id="navMenu">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#research">Research</a>
-      <a href="#awards">Awards</a>
-      <a href="#contact">Contact</a>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Portfolio home">LSM</a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contributions">Contributions</a>
+        <a href="#tools">Tools</a>
+      </div>
     </nav>
-    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">AI Research · Applied Machine Learning · Data Products</p>
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">GenAI Engineer · Data Scientist · Applied AI Engineer</p>
           <h1>Laxmi Shravani Mamidala</h1>
-          <h2>AI/ML Engineer focused on intelligent systems, medical AI, agentic workflows, and reinforcement learning.</h2>
-          <p class="hero-text">
-            I build practical AI systems that convert complex data into usable insights: blood cell image analysis, call conversation intelligence, RL control evaluation, and fake review monitoring dashboards.
+          <p class="role-line">LLM · RAG . Agents · Cloud-Native AI Systems</p>
+
+          <p class="typed-line">
+            <span>Building </span><span id="typedText">production-ready AI systems</span><span class="cursor">|</span>
           </p>
+
+          <p class="hero-summary">
+            AI Specialist with 5+ years of experience building production-ready LLM agents, RAG pipelines, APIs, automation frameworks, developer tooling, and applied machine learning systems across the full software development lifecycle.
+          </p>
+
           <div class="hero-actions">
             <a class="btn primary" href="#projects">View Projects</a>
-            <a class="btn secondary" href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo Hub</a>
-            <a class="btn ghost" href="mailto:YOUR_EMAIL@example.com">Contact Me</a>
+            <a class="btn secondary" href="assets/docs/Resume_LaxmiShravaniMamidala.pdf" target="_blank" rel="noreferrer">Resume</a>
+            
+          </div>
+
+          <div class="hero-highlights" aria-label="Profile highlights">
+            <div class="highlight-card">
+              <div class="highlight-logo number-logo">5+</div>
+              <p>Years of Experience in<br>Data Science and Machine Learning</p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-logo number-logo">3+</div>
+              <p>Years as<br>Machine Intelligence Architect</p>
+            </div>
+
+            <div class="highlight-card unt-card">
+              <img class="unt-logo-img" src="assets/images/university-of-north-texas-unt-logo-vector.png" alt="University of North Texas logo" />
+              <p>M.S. in AI</p>
+              <span>University of North Texas</span>
+            </div>
+
+            <div class="highlight-card scholar-card">
+              <img class="scholar-logo-img"src="assets/images/DistingushedScholar.png" alt="Scholar logo" />
+              <p>Distinguished</p>
+              <p>M.S. Scholar Award</p>
+            </div>
           </div>
         </div>
-        <div class="hero-card" aria-label="Portfolio highlights">
-          <div class="orb"></div>
-          <h3>Portfolio Focus</h3>
-          <div class="metric-list">
-            <div><span>4</span><p>AI Projects</p></div>
-            <div><span>5K</span><p>Blood Cell Images</p></div>
-            <div><span>500</span><p>RL Episodes</p></div>
-            <div><span>4</span><p>Agentic Modules</p></div>
+
+        <aside class="profile-card reveal" aria-label="Profile card">
+          <div class="photo-wrap">
+            <img src="assets/images/professional photo.png" onerror="this.onerror=null; this.src='assets/images/profile-placeholder.svg';" alt="Laxmi Shravani Mamidala profile portrait" />
+          </div>
+          <div class="profile-badge-panel" aria-label="Profile summary">
+            <div>
+              <strong>AI / ML</strong>
+              <span>Production Systems</span>
+            </div>
+            <div>
+              <strong>LLM + RAG</strong>
+              <span>Agentic Workflows</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="shell two-column">
+        <div class="section-heading reveal">
+          <p class="section-kicker">About</p>
+          <h3>AI engineer focused on production-ready, measurable, and explainable systems.</h3>
+        </div>
+        <div class="about-body reveal">
+          <p>
+            I am a GenAI Engineer and Data Scientist with an M.S. in Artificial Intelligence and 5+ years of experience across AI, data science, and software engineering. My work focuses on building LLM agents, RAG systems, APIs, automation frameworks, dashboards, and developer-facing AI tooling.
+          </p>
+          <p>
+            My background combines enterprise engineering experience at Infosys, graduate AI work at the University of North Texas, applied ML training through INSOFE, and hands-on projects in GenAI, computer vision, reinforcement learning, explainable AI, and NLP.
+          </p>
+          <div class="about-focus-grid">
+            <div><span>01</span><strong>Build</strong><p>LLM agents, RAG pipelines, APIs, dashboards, and ML systems.</p></div>
+            <div><span>02</span><strong>Evaluate</strong><p>Benchmark models, monitor data quality, and validate performance.</p></div>
+            <div><span>03</span><strong>Explain</strong><p>Use SHAP, LIME, Grad-CAM, documentation, and visual analytics.</p></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">About</p>
-        <h2>Research-driven AI portfolio with practical dashboards.</h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-card large">
-          <h3>Profile</h3>
-          <p>
-            I am an Artificial Intelligence graduate student and applied AI builder interested in machine learning, LLM systems, computer vision, NLP, dashboard engineering, and explainable AI. My projects combine research writing, model evaluation, user interfaces, and deployment-oriented thinking.
-          </p>
-          <p>
-            This portfolio highlights selected academic and applied projects with reports, demo workflows, and live Streamlit-ready simulations for recruiters, professors, and collaborators.
-          </p>
+    <section class="section" id="experience">
+      <div class="shell">
+        <div class="section-heading  reveal">
+          <p class="section-kicker">Experience</p>
+          <h3>Enterprise software foundation + applied AI specialization.</h3>
+          
         </div>
-        <div class="about-card">
-          <h3>Core Skills</h3>
-          <div class="chips">
-            <span>Python</span><span>Machine Learning</span><span>Deep Learning</span><span>Computer Vision</span><span>LLMs</span><span>Agentic AI</span><span>Streamlit</span><span>Dash</span><span>Flask</span><span>Plotly</span><span>Data Visualization</span><span>Explainable AI</span>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section" id="projects">
-      <div class="section-heading center">
-        <p class="eyebrow">Featured Work</p>
-        <h2>Projects</h2>
-        <p>Each card is written for portfolio visibility: problem, method, result, and proof.</p>
-      </div>
+        <div class="timeline">
+          <article class="timeline-card reveal">
+            <div class="timeline-year">2025–2026</div>
+            <div>
+              <h3>AI Engineer</h3>
+              <p class="company">University of North Texas · Denton, TX</p>
+              <p>Led AI-native transformation initiatives using LangGraph and CrewAI, building multi-agent applications, reusable AI tooling, RAG workflows, and developer enablement resources.</p>
+              <p>Architected scalable AI web services and real-time inference APIs using FastAPI and cloud-native architecture, with TDD, automated testing, CI/CD, and LLM evaluation pipelines.</p>
+              <div class="chip-row"><span>LangGraph</span><span>CrewAI</span><span>RAG</span><span>FastAPI</span><span>CI/CD</span></div>
+            </div>
+          </article>
 
-      <div class="project-grid">
-        <article class="project-card featured">
-          <div class="project-topline">
-            <span class="tag">Medical AI</span>
-            <span class="tag soft">Computer Vision</span>
-          </div>
-          <h3>Blood Cancer Detection System</h3>
-          <p>
-            Automated blood cell analysis system using ResNet50 feature extraction, supervised ML classifiers, YOLOv8 object detection, and Grad-CAM explainability for interpretable medical image analysis.
-          </p>
-          <ul>
-            <li>Processed 5,000 microscopic blood cell images across five categories.</li>
-            <li>Used ResNet50 features with Logistic Regression, SVM, Random Forest, XGBoost, and K-Means.</li>
-            <li>Integrated YOLOv8 and Grad-CAM to support detection and visual explanation.</li>
-          </ul>
-          <div class="tech">ResNet50 · YOLOv8 · Grad-CAM · Flask · ML Classifiers</div>
-          <div class="card-actions">
-            <a href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo</a>
-            <a href="assets/docs/blood_cancer_report.pdf" target="_blank" rel="noreferrer">Research Report</a>
-            <a href="YOUR_BLOOD_CANCER_GITHUB_LINK" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
+          <article class="timeline-card reveal">
+            <div class="timeline-year">2024–2025</div>
+            <div>
+              <h3>Data Scientist</h3>
+              <p class="company">University of North Texas · Denton, TX</p>
+              <p>Developed end-to-end data science and ML pipelines using Python, SQL, and TensorFlow, owning requirements through deployment, monitoring, and SDLC execution.</p>
+              <p>Processed 10,000+ records for predictive modeling and text analytics, using SHAP and LIME to produce explainable insights and integrating ML models into APIs and dashboards.</p>
+              <div class="chip-row"><span>Python</span><span>SQL</span><span>TensorFlow</span><span>SHAP</span><span>LIME</span></div>
+            </div>
+          </article>
 
-        <article class="project-card">
-          <div class="project-topline">
-            <span class="tag">Agentic AI</span>
-            <span class="tag soft">LLMs</span>
-          </div>
-          <h3>Agentic AI for Conversational Analysis</h3>
-          <p>
-            Modular multi-agent framework for processing call center recordings from audio acquisition to transcription, summarization, and dashboard visualization.
-          </p>
-          <ul>
-            <li>Designed AudioAgent, TranscribeAgent, SummarizeAgent, and DashboardAgent.</li>
-            <li>Used Whisper for speech-to-text, HuggingFace for summarization, and CrewAI for orchestration.</li>
-            <li>Generated structured metadata, transcripts, summaries, and dashboard-ready insights.</li>
-          </ul>
-          <div class="tech">Whisper · HuggingFace · CrewAI · Dash · LLMs</div>
-          <div class="card-actions">
-            <a href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo</a>
-            <a href="assets/docs/agentic_ai_paper.pdf" target="_blank" rel="noreferrer">Paper</a>
-            <a href="YOUR_AGENTIC_AI_GITHUB_LINK" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-topline">
-            <span class="tag">Reinforcement Learning</span>
-            <span class="tag soft">Control</span>
-          </div>
-          <h3>Lunar Landing: DQN Variants vs PPO</h3>
-          <p>
-            Comparative RL study evaluating value-based and policy-gradient methods on Gymnasium LunarLander-v3 under a 500-episode training budget.
-          </p>
-          <ul>
-            <li>Compared Vanilla DQN, Double DQN, Dueling DQN, PER-DQN, and PPO.</li>
-            <li>Tracked reward curves, success rate, fuel efficiency, compute cost, and stability.</li>
-            <li>Found PPO improved more consistently and achieved measurable landing success.</li>
-          </ul>
-          <div class="tech">DQN · Double DQN · Dueling DQN · PPO · Gymnasium</div>
-          <div class="card-actions">
-            <a href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo</a>
-            <a href="assets/docs/lunar_landing_report.pdf" target="_blank" rel="noreferrer">Final Report</a>
-            <a href="YOUR_LUNAR_LANDING_GITHUB_LINK" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-card video-card">
-          <div class="project-topline">
-            <span class="tag">NLP</span>
-            <span class="tag soft">Fraud Detection</span>
-          </div>
-          <h3>Fake News & Review Monitoring System</h3>
-          <p>
-            UI-driven monitoring workflow for detecting suspicious or duplicate reviews, blocking abusive users, and enabling admin CSV-based review analysis.
-          </p>
-          <ul>
-            <li>Built user/admin workflows for registration, login, review entry, and CSV analysis.</li>
-            <li>Included duplicate review alerts and blocked-user handling.</li>
-            <li>Provided Phase 4 use-case diagrams and a working demo recording.</li>
-          </ul>
-          <div class="tech">NLP · Flask/UI · Review Analysis · Admin Dashboard · CSV Workflow</div>
-          <video controls preload="metadata">
-            <source src="assets/video/fake_news_demo.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div class="card-actions">
-            <a href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo</a>
-            <a href="assets/docs/fake_news_use_cases.pdf" target="_blank" rel="noreferrer">Use Cases</a>
-            <a href="https://github.com/shravanimamidala/Project_Version2/tree/main" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="research">
-      <div class="section-heading">
-        <p class="eyebrow">Research & Reports</p>
-        <h2>Academic evidence attached to the portfolio.</h2>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span>01</span>
-          <div>
-            <h3>Medical AI Report</h3>
-            <p>Blood cancer detection using ResNet50, YOLOv8, Grad-CAM, and multiple ML classifiers.</p>
-            <a href="assets/docs/blood_cancer_report.pdf" target="_blank" rel="noreferrer">Open report</a>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <span>02</span>
-          <div>
-            <h3>Agentic AI Paper</h3>
-            <p>Conversation intelligence framework using Whisper, HuggingFace, CrewAI, and Dash.</p>
-            <a href="assets/docs/agentic_ai_paper.pdf" target="_blank" rel="noreferrer">Open paper</a>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <span>03</span>
-          <div>
-            <h3>RL Final Report</h3>
-            <p>LunarLander-v3 study comparing DQN variants and PPO across learning, stability, and compute metrics.</p>
-            <a href="assets/docs/lunar_landing_report.pdf" target="_blank" rel="noreferrer">Open report</a>
-          </div>
+          <article class="timeline-card reveal">
+            <div class="timeline-year">2018–2023</div>
+            <div>
+              <h3>Technology Analyst</h3>
+              <p class="company">Infosys Limited · Hyderabad, India</p>
+              <p>Delivered enterprise AI and software engineering solutions for large-scale digital platforms, working across requirements, architecture, build, test, deployment, and Agile/JIRA delivery.</p>
+              <p>Designed scalable microservices, ETL pipelines, metadata tooling, automation workflows, and reusable abstractions; improved performance, maintainability, data quality, and production processing efficiency by 30%.</p>
+              <div class="chip-row"><span>Python</span><span>Microservices</span><span>AWS/Azure/GCP</span><span>ETL</span><span>Agile</span></div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="awards">
-      <div class="section-heading center">
-        <p class="eyebrow">Recognition</p>
-        <h2>Awards & Certificates</h2>
-        <p>Add your certificates as images or PDFs inside <code>assets/certificates/</code> and place links here.</p>
-      </div>
-      <div class="award-grid">
-        <div class="award-card"><h3>Distinguished M.S. Scholar Award</h3><p>Add certificate or award photo.</p></div>
-        <div class="award-card"><h3>InfoFORCE / Research Presentation</h3><p>Add poster or presentation proof.</p></div>
-        <div class="award-card"><h3>Gold Medalist / Academic Excellence</h3><p>Add certificate or supporting document.</p></div>
-        <div class="award-card"><h3>AI / ML Certificates</h3><p>Add Coursera, workshops, bootcamps, or conference certificates.</p></div>
+    <section class="section awards-section" id="awards">
+      <div class="shell">
+        <div class="section-heading  reveal">
+          <p class="section-kicker">Awards & Recognition</p>
+          <h3>Academic and professional recognition.</h3>
+        </div>
+        <div class="award-grid">
+          <article class="award-card reveal">
+               <h3>Distinguished M.S. Scholar Award</h3>
+            <p>Graduate recognition from the University of North Texas during the M.S. in Artificial Intelligence program.</p>
+          </article>
+          <article class="award-card reveal">
+            <h3>2x Academic Excellence Award</h3>
+            <p>Undergraduate academic excellence recognition in Computer Science Engineering.</p>
+          </article>
+          
+          <article class="award-card reveal">
+              <h3>Infosys Recognition Award</h3>
+            <p>Professional recognition for contribution, delivery, and engineering impact at Infosys.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section contact" id="contact">
+    <section class="section projects-section" id="projects">
+      <div class="shell">
+        <div class="section-heading  reveal">
+          <p class="section-kicker">Projects</p>
+        </div>
+
+        <div class="project-filters reveal" aria-label="Project filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="thesis">Thesis</button>
+          <button class="filter-btn" data-filter="genai">GenAI</button>
+          <button class="filter-btn" data-filter="cv">Computer Vision</button>
+          <button class="filter-btn" data-filter="rl">RL</button>
+          <button class="filter-btn" data-filter="nlp">NLP</button>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card featured-project reveal" data-category="thesis genai">
+            <div class="project-number">01</div>
+            <p class="project-domain">Thesis Project · GenAI · Multi-Agent LLMs</p>
+            <h3>ProComp: Multi-Agent LLM Framework for Scholarly Paper Evaluation</h3>
+            <p>
+              Thesis project focused on automating scholarly paper evaluation using role-based LLM agents,
+              retrieval-augmented generation, structured outputs, explainable scoring, and ranking workflows.
+              The system simulates a peer-review process to analyze research papers across problem motivation,
+              method validation, contribution impact, and final decision support.
+            </p>
+
+            <ul>
+              <li>Built a multi-agent LLM evaluation system for scholarly review automation.</li>
+              <li>Used RAG, role-based agents, structured outputs, and explainable scoring logic.</li>
+              <li>Designed workflows to evaluate and compare 190+ research papers.</li>
+              <li>Generated reviewer-style feedback, scoring, ranking, and decision summaries.</li>
+            </ul>
+
+            <div class="tech-list">
+              <span>LLMs</span>
+              <span>RAG</span>
+              <span>LangGraph</span>
+              <span>CrewAI</span>
+              <span>FAISS</span>
+              <span>Structured Outputs</span>
+              <span>Python</span>
+            </div>
+
+            <div class="card-actions">
+              <a href="assets/docs/Procomp_Thesis_PDF.pdf" target="_blank" rel="noreferrer">Thesis Details</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="cv">
+            <div class="project-number">02</div>
+            <p class="project-domain">Medical AI · Computer Vision</p>
+            <h3>Blood Cancer Detection System</h3>
+            <p>
+              Built a blood cell analysis system using deep feature extraction, ML classifiers,
+              object detection, and explainability for microscopy image understanding.
+            </p>
+            <ul>
+              <li>ResNet50 feature extraction and ML classification.</li>
+              <li>YOLOv8 object detection workflow.</li>
+              <li>Grad-CAM visual explanation for model focus.</li>
+            </ul>
+            <div class="tech-list">
+              <span>ResNet50</span>
+              <span>YOLOv8</span>
+              <span>Grad-CAM</span>
+              <span>Flask</span>
+            </div>
+            <div class="card-actions">
+              <!--<a href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo</a>-->
+              <a href="https://github.com/shravanimamidala/BloodCancerDetectionSystemUsingYOLO" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="assets/docs/blood_cancer_report.pdf" target="_blank" rel="noreferrer">Report</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="genai">
+            <div class="project-number">03</div>
+            <p class="project-domain">Agentic AI · Conversation Intelligence</p>
+            <h3>Agentic AI for Conversational Analysis</h3>
+            <p>
+              Designed an agent-based workflow that converts call recordings into transcripts,
+              summaries, metadata, and dashboard-ready insights.
+            </p>
+            <ul>
+              <li>Audio acquisition, transcription, summarization, and dashboard agents.</li>
+              <li>Whisper for speech-to-text and HuggingFace models for summaries.</li>
+              <li>Dashboard view for conversation intelligence.</li>
+            </ul>
+            <div class="tech-list">
+              <span>Whisper</span>
+              <span>CrewAI</span>
+              <span>HuggingFace</span>
+              <span>Dash</span>
+            </div>
+            <div class="card-actions">
+              <!--<a href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo</a>-->
+              <a href="https://github.com/shravanimamidala/AgenticAI_CrewAI" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="assets/docs/agentic_ai_paper.pdf" target="_blank" rel="noreferrer">Report</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="rl">
+            <div class="project-number">04</div>
+            <p class="project-domain">Reinforcement Learning</p>
+            <h3>Lunar Landing RL Comparison</h3>
+            <p>
+              Compared PPO and DQN variants on Gymnasium LunarLander-v3 using reward curves,
+              success rate, sample efficiency, and stability metrics.
+            </p>
+            <ul>
+              <li>Compared Vanilla DQN, Double DQN, Dueling DQN, PER-DQN, and PPO.</li>
+              <li>Tracked milestone evaluations across 500 episodes.</li>
+              <li>Visualized training reward, fuel, stability, and compute cost.</li>
+            </ul>
+            <div class="tech-list">
+              <span>DQN</span>
+              <span>PPO</span>
+              <span>Gymnasium</span>
+              <span>PyTorch</span>
+            </div>
+            <div class="card-actions">
+              <!--<a href="YOUR_STREAMLIT_DEMO_LINK" target="_blank" rel="noreferrer">Live Demo</a>-->
+              <a href="https://github.com/shravanimamidala/LunarLanding_DLProject" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="assets/docs/lunar_landing_report.pdf" target="_blank" rel="noreferrer">Report</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="nlp">
+            <div class="project-number">05</div>
+            <p class="project-domain">NLP · Fraud Monitoring</p>
+            <h3>Fake News & Review Monitoring System</h3>
+            <p>
+              Built a review monitoring workflow with user/admin use cases, duplicate-review detection,
+              blocked-user handling, CSV analysis, and demo video.
+            </p>
+            <ul>
+              <li>User review submission and validation workflow.</li>
+              <li>Admin CSV upload and review analysis dashboard flow.</li>
+              <li>Alert logic for analogous/fake review behavior.</li>
+            </ul>
+            <div class="tech-list">
+              <span>NLP</span>
+              <span>Python</span>
+              <span>UI Flow</span>
+              <span>Analytics</span>
+            </div>
+            <div class="card-actions">
+              <a href="assets/video/UI_Only_C1.mp4" target="_blank" rel="noreferrer">Video</a>
+              <a href="https://github.com/shravanimamidala/Fake_Review_Monitoring_UI" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+      <section class="section" id="certifications">
+
+  <div class="section-heading reveal">
+    <p class="section-kicker">Certifications</p>
+  </div>
+
+  <div class="academic-card reveal">
+
+    <div class="academic-item cert-item">
+      <span class="cert-year">2026</span>
       <div>
-        <p class="eyebrow">Contact</p>
-        <h2>Let’s connect.</h2>
-        <p>Open to AI/ML engineering, research assistantship, GenAI, data science, and applied AI opportunities.</p>
+        <h3>AWS AI Practitioner Challenge</h3>
+        <p>Udacity · Part of Accenture</p>
       </div>
-      <div class="contact-links">
-        <a href="mailto:YOUR_EMAIL@example.com">Email</a>
-        <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="YOUR_GITHUB_URL" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="YOUR_RESUME_LINK_OR_FILE" target="_blank" rel="noreferrer">Resume</a>
+    </div>
+
+    <div class="academic-item cert-item">
+      <span class="cert-year">2023</span>
+      <div>
+        <h3>Infosys Certified Python Associate</h3>
+        <p>Infosys Limited</p>
+      </div>
+    </div>
+
+    <div class="academic-item cert-item">
+      <span class="cert-year">2022</span>
+      <div>
+        <h3>PG Certificate with Honours in Data Science</h3>
+        <p>
+          IIT Ropar · Carleton University (Canada) · INSOFE Hyderabad
+        </p>
+      </div>
+    </div>
+
+    <div class="academic-item cert-item">
+      <span class="cert-year">2021</span>
+      <div>
+        <h3>Post Graduate Certificate in Data Science</h3>
+        <p>
+          Language Technologies Institute (LTI),
+          Carnegie Mellon University
+        </p>
+      </div>
+    </div>
+
+    <div class="academic-item cert-item">
+      <span class="cert-year">2021</span>
+      <div>
+        <h3>Scalable Machine Learning</h3>
+        <p>
+          IIT Ropar · Carleton University (Canada) · INSOFE Hyderabad
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section" id="contributions">
+
+  <div class="section-heading reveal">
+    <p class="section-kicker">Academic Contributions</p>
+  </div>
+
+  <div class="academic-card reveal">
+
+    <div class="academic-item">
+      <h3>Student Researcher</h3>
+      <p>
+        UNT AI/CS Summer Research Program 2025
+      </p>
+    </div>
+
+    <div class="academic-item">
+      <h3>Research Lab Member</h3>
+      <p>
+        Dr. Xiao Ting's Data Science Research Lab,
+        University of North Texas
+      </p>
+    </div>
+
+    <div class="academic-item">
+      <h3>Instructional Assistant</h3>
+      <p>
+        Fundamentals of Artificial Intelligence (CSCE 4201),
+        Programming Languages (CSCE 4430) by grading and mentoring,
+        under-graduate and graduate students.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section" id="research-posters">
+
+    <div class="section-heading reveal">
+        <p class="section-kicker">Research Posters</p>
+        
+    </div>
+
+    <div class="timeline">
+
+        <article class="timeline-card reveal">
+
+            <div class="timeline-year">2026</div>
+
+            <div>
+                <h3>AI Horizons 2026</h3>
+                <p class="company">Society for Student AI Innovation,University of North Texas</p>
+            </div>
+
+        </article>
+
+
+        <article class="timeline-card reveal">
+
+            <div class="timeline-year">2025</div>
+
+            <div>
+                <h3>InfoFORCE UNT 2025</h3>
+                <p class="company">University of North Texas</p>
+
+                <div class="poster-actions">
+                    <a href="assets/images/INFOPOSTER_PROCOMP_LaxmiShravani_Shreeharshini.pdf" target="_blank">
+                        View Poster
+                    </a>
+
+                    <a href="assets/images/INFOFORCE.jpeg" target="_blank">
+                        View Photos
+                    </a>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="timeline-card reveal">
+
+            <div class="timeline-year">2025</div>
+
+            <div>
+                <h3>MIRS Conference UNT 2025</h3>
+                <p class="company">University of North Texas</p>
+
+                
+                <div class="poster-actions">
+                    <a href="assets/images/MIRS_Poster.pdf" target="_blank">
+                        View Poster
+                    </a>
+
+                    <a href="assets/images/MIRS_conference.jpeg" target="_blank">
+                        View Photos
+                    </a>
+                </div>
+            </div>
+
+        </article>
+        <article class="timeline-card reveal">
+
+            <div class="timeline-year">2025</div>
+
+            <div>
+                <h3>UNT Research Day 2025</h3>
+                <p class="company">University of North Texas</p>
+
+                <div class="poster-actions">
+                    <a href="assets/images/UNT_Reserach_Poster.pdf" target="_blank">
+                        View Poster
+                    </a>
+
+                    <a href="assets/images/UNT Summer Research 2025.png" target="_blank">
+                        View Photos
+                    </a>
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+    <section class="section tools-section" id="tools">
+      <div class="shell">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker">Tools & Technologies</p>
+          <h3>Core stack I use to build AI systems.</h3>
+        </div>
+
+        <div class="logo-grid reveal">
+
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python logo" /><span>Python</span></div>
+  <div class="tool-logo text-logo"><strong>GPT</strong><span>OpenAI GPT</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch logo" /><span>PyTorch</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow logo" /><span>TensorFlow</span></div>
+  <div class="tool-logo text-logo"><strong>LC</strong><span>LangChain</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn logo" /><span>Scikit-learn</span></div>
+
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV logo" /><span>OpenCV</span></div>
+  <div class="tool-logo text-logo"><strong>HF</strong><span>Hugging Face</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas logo" /><span>Pandas</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy logo" /><span>NumPy</span></div>
+  <div class="tool-logo text-logo"><strong>LG</strong><span>LangGraph</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" alt="Jupyter logo" /><span>Jupyter</span></div>
+
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git logo" /><span>Git</span></div>
+  <div class="tool-logo text-logo"><strong>LS</strong><span>LangSmith</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker logo" /><span>Docker</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI logo" /><span>FastAPI</span></div>
+  <div class="tool-logo text-logo"><strong>FA</strong><span>FAISS</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask logo" /><span>Flask</span></div>
+
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" alt="Streamlit logo" /><span>Streamlit</span></div>
+  <div class="tool-logo text-logo"><strong>CA</strong><span>CrewAI</span></div>
+  <div class="tool-logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS logo" /><span>AWS</span></div>
+  <div class="tool-logo text-logo"><strong>RAG</strong><span>RAG</span></div>
+  <div class="tool-logo text-logo"><strong>SQL</strong><span>SQL</span></div>
+
+</div>
+
+
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Laxmi Shravani Mamidala. Built with HTML, CSS, JavaScript, and Streamlit demo support.</p>
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div>
+        <h2>Let’s build intelligent systems.</h2>
+        <p>Open to AI Engineer, Data Scientist, ML Engineer, and GenAI Engineer opportunities.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:shravanimamidala8@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/shravani-mamidala" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/shravanimamidala" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Laxmi Shravani Mamidala.</p>
   </footer>
 
   <script src="script.js"></script>

@@ -1,2 +1,0 @@
-# LaxmiShravaniMamidala.github.io
-Portfolio
